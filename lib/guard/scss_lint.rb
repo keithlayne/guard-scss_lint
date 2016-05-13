@@ -75,8 +75,7 @@ module Guard
        Rainbow(lint.linter.name).color(:green),
        Rainbow(':').color(:green),
        ' ',
-       lint.description
-      ].join
+       lint.description].join
     end
 
     def lint_severity_abbrevation(lint)
